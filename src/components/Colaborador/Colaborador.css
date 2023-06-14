@@ -1,0 +1,44 @@
+.colaborador {
+    width: 262px;
+    height: 272px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.colaborador .cabecalho {
+    height: 90px;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.colaborador .cabecalho .cabecalho-imagem {
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.colaborador .rodape {
+    margin-top: 80px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.colaborador .rodape h4 {
+    color: #6278f7;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.colaborador .rodape h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}

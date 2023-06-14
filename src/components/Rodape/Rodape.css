@@ -1,0 +1,29 @@
+footer.rodape {
+    background-color: #6278f7;
+    width: 100%;
+    min-height: 213px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer.rodape .rodape-item .social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+footer.rodape .rodape-item .social img {
+    width: 24px;
+}
+
+footer.rodape .rodape-item p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
